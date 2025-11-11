@@ -1,1 +1,10 @@
+Esta carpeta contiene el producto final interactivo del proyecto.
 
+### Archivo
+- **`Modelo_Riesgo_Estudiantil_Final.pbix`**: Archivo del dashboard interactivo.
+
+### Modelado
+El dashboard se alimenta del archivo `Modelo_Riesgo_Estudiantil_Final.xlsx` (ubicado en /DATOS), el cual ya contiene la clasificación de **Segmento de Riesgo**.
+
+Se utilizaron **Medidas DAX** (e.g., Total Femenino, Tasa Desercion) y **Columnas Calculadas** (e.g., Género Etiqueta) para asegurar la claridad y eficiencia del modelo de datos. 
+La navegación entre las cuatro páginas del dashboard se implementó mediante **Marcadores**.
