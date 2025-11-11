@@ -1,1 +1,6 @@
+Esta carpeta contiene los archivos de origen y el dataset final que se utiliza para la visualización.
 
+### Archivos
+- **`student_dataset.csv`**: Archivo de datos brutos original antes de la limpieza y transformación.
+- **`Modelo_Riesgo_Estudiantil_Final.xlsx`**: El dataset limpio, transformado y enriquecido. Este archivo fue exportado desde SQL y posteriormente se le agregó la lógica de negocio (`Segmento_Riesgo`) 
+en una columna de Excel. Es la **fuente de datos directa** para el archivo `.pbix`.
