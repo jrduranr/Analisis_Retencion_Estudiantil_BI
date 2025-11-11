@@ -1,1 +1,7 @@
+Esta carpeta contiene los scripts SQL utilizados para la limpieza, importación y el cálculo de métricas clave del dataset de retención estudiantil.
 
+### Archivos
+- **`01_create_db_tables.sql`**: Script utilizado para crear la base de datos (`Retencion_Estudiantil_DB`) y la tabla de datos brutos (`dbo.student_data_raw`).
+- **`02_Calculo_Metricas_Riesgo.sql`**: Script de transformación principal. Este script lee la tabla bruta y realiza los siguientes cálculos y traducciones para crear la tabla analítica final (`dbo.student_metrics_clean`):
+    - Cálculo de la **Tasa de Éxito Curricular** (`Tasa_Exito_1er_Semestre`).
+    - Traducción de los códigos numéricos a las categorías claras (`Estado_Final`, `Estado_Financiero`).
